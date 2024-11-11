@@ -14,8 +14,6 @@ const AddBlogForm = ({ addBlogPost }: AddBlogFormProps) => {
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
 
-    console.log(title, content, imageUrl);
-
     if (!title || !content || !imageUrl) {
       alert('ERROR');
       return;

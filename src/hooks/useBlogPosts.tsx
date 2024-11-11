@@ -23,8 +23,6 @@ const useBlogPosts = () => {
     return blogList.find((blog) => blog.id === id);
   };
 
-  console.log(blogList);
-
   return {
     blogList,
     addBlogPost,

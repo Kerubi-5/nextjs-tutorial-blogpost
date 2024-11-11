@@ -6,7 +6,7 @@ type BlogCardProps = {
 };
 
 const BlogCard = ({ blog }: BlogCardProps) => {
-  const { content, id, imageUrl, title } = blog || {};
+  const { id, imageUrl, title } = blog || {};
 
   return (
     <Link href={`/${id}`}>
